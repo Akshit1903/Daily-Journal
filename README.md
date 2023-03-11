@@ -1,7 +1,8 @@
 # Daily Journal
 
-A simple journalling app to keep your daily adventures!
-Built using EJS, Express.js, Node.js, HTML, CSS.
+- A web-based application that allows users to keep track of their daily thoughts, feelings, and experiences. 
+- The app is designed to be user-friendly, with a clean and intuitive interface that makes it easy for users to create new journal entries and browse through their previous entries.
+- Built using EJS, Express.js, Node.js, HTML, CSS, JavaScript.
 
 ## Compose:
 

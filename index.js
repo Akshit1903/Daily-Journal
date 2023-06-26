@@ -10,7 +10,7 @@ const homeStartingContent =
   "Hey, Welcome to my Daily Joural App! Click on the Compose Button to get started!";
 const aboutContent =
   "This is one of my fundamental projects developed during the learning awesome technologies such as Express and EJS!";
-const contactContent = "Email me at akshit.lalit@gmail.com <br/> Hi";
+const contactContent = "Email me at akshit.lalit@gmail.com";
 
 const app = express();
 

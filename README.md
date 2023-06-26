@@ -36,7 +36,7 @@
     node index.js
 ```
 
-4. Open your web browser and visit `http://localhost:3000` to access the Todo App.
+4. Open your web browser and visit `http://localhost:3000` to access the Daily Journal App.
 
 ## Usage
 

@@ -1,6 +1,15 @@
 <%- include("partials/header"); -%>
-    <h1>About</h1>
-    <p>
-        <%= startingContent %>
-    </p>
+<div class="about-project my-5">
+    <div class="p-5">
+      <p id="loader">
+        Fetching, please wait...
+      </p>
+      <p>
+        <div class="m-5 text-start"><md-block class="d-none" id="readme-content-box">Failed</md-block></div>
+      </p>
+    </div>
+  </div>
+<script src="./about.js"></script>
+<script type="module" src="https://md-block.verou.me/md-block.js"></script>
+
 <%- include("partials/footer"); -%>

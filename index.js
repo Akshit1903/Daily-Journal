@@ -10,7 +10,7 @@ const homeStartingContent =
   "Hey, Welcome to my Daily Joural App! Click on the Compose Button to get started!";
 const aboutContent =
   "This is one of my fundamental projects developed during the learning awesome technologies such as Express and EJS!";
-const contactContent = "Email me at akshit.lalit@gmail.com";
+const contactContent = "Email me at akshit.lalit@gmail.com <br/> Hi";
 
 const app = express();
 
@@ -50,8 +50,10 @@ app.get("/posts/:postName", function (req, res) {
   posts.forEach(function (post) {
     if (_.lowerCase(post.title) === requestedTitle) {
       res.render("post", { postHeading: post.title, postBody: post.content });
+      return;
     }
   });
+  res.redirect("/");
 });
 
 app.listen(process.env.PORT || 3000, function () {

@@ -17,5 +17,5 @@ async function downloadReadMeFile() {
   setTimeout(() => {
     markdownbox.classList.remove("d-none");
     loader.classList.add("d-none");
-  }, 3000);
+  }, 4000);
 })();

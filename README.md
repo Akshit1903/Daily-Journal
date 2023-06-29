@@ -1,9 +1,10 @@
 # Daily Journal
 
-- The Daily Journal App is a web-based application that allows users to write and store their daily journal entries. 
+- The Daily Journal App is a web-based application that allows users to write and store their daily journal entries.
 - It provides a simple and intuitive interface for users to jot down their thoughts, reflect on their day, and keep a record of their experiences.
 
 - <a href="https://daily-journal-kohl.vercel.app/">Deployed Link</a>
+- <a href="https://youtu.be/LCoxbKZOM54">YouTube</a>
 
 <img src="compose.gif" height="auto" width="600">
 <img src="navigation.gif" height="auto" width="600">
@@ -26,7 +27,7 @@
 2. Install the dependencies:
 
 ```bash
-    cd daily-journal
+    cd Daily-Journal
     npm install
 ```
 
